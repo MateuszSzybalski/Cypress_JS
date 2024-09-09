@@ -7,7 +7,7 @@ import { reportsAndSettingPage } from "../POM/ReportsAndSettingsPage"
 import { salesAndMarketingPage } from "../POM/SalesAndMarketingPage"
 import { startPage } from "../POM/StartPage"
 
-describe('Replay', () => {
+describe('Tests scenarious', () => {
   Cypress.on('uncaught:exception', () => { return false })
 
 beforeEach(() => {
