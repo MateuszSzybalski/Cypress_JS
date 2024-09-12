@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import { Common } from "./Common"
+import { Common } from "../pom/Common"
 import { commands } from "commander"
 
 export class LoginPage extends Common {
