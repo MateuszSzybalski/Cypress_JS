@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import { common } from "../pom/Common";
-import { loginPage } from "../pom/LoginPage";
+import { loginPage } from "../pom/LoginPage"
 import { projectManagementPage } from "../pom/ProjectManagementPage";
 import { reportsAndSettingPage } from "../pom/ReportsAndSettingsPage";
 import { salesAndMarketingPage } from "../pom/SalesAndMarketingPage";
