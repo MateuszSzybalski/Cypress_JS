@@ -16,6 +16,12 @@ describe("Tests scenarious", () => {
     cy.visit("https://demo.1crmcloud.com");
   });
 
+  afterEach("ClearData", () => {
+    cy.clearAllCookies();
+    cy.clearAllLocalStorage();
+    cy.clearAllSessionStorage();
+  });
+
   it("Scenario 1 – Create contact:", () => {
     loginPage.logIntoPortal();
     loginPage.catchRequest(
