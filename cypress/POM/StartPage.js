@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import { Common } from "../pom/Common"
+import { Common } from "./Common"
 
 export class StartPage extends Common {
 
