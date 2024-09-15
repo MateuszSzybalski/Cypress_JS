@@ -1,11 +1,10 @@
 /// <reference types="cypress" />
 
-import { common } from "../POM/Common";
-import { loginPage } from "../POM/LoginPage"
-import { projectManagementPage } from "../POM/ProjectManagementPage";
-import { reportsAndSettingPage } from "../POM/ReportsAndSettingsPage";
-import { salesAndMarketingPage } from "../POM/SalesAndMarketingPage";
-import { startPage } from "../POM/StartPage";
+import { loginPage } from "../pages/LoginPage"
+import { projectManagementPage } from "../pages/ProjectManagementPage";
+import { reportsAndSettingPage } from "../pages/ReportsAndSettingsPage";
+import { salesAndMarketingPage } from "../pages/SalesAndMarketingPage";
+import { startPage } from "../pages/StartPage";
 
 describe("Tests scenarious", () => {
   Cypress.on("uncaught:exception", () => {

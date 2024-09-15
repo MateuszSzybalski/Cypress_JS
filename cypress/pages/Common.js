@@ -21,8 +21,8 @@ export class Common {
     return this;
   };
 
-  catchRequest(Mtehod, url, alias) {
-    cy.intercept(Mtehod, url).as(alias)
+  catchRequest(Method, url, alias) {
+    cy.intercept(Method, url).as(alias)
   }
 
   waitForResponse = (aliasName, statusCode) => {
