@@ -5,7 +5,7 @@ import { Common } from "./Common";
 export class ProjectManagementPage extends Common {
 
   //selectors
-  filterFormButton = '[class^="sec"]'
+  filterFormButton = '[class="sec"]'
   runReport = '[name="FilterForm_applyButton"]'
 
 }
