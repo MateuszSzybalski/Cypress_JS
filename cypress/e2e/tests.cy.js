@@ -13,6 +13,7 @@ describe("Tests scenarious", () => {
 
   beforeEach(() => {
     cy.visit("https://demo.1crmcloud.com");
+    cy.intercept({ resourceType: /xhr|fetch/ }, { log: false })
   });
 
   afterEach("ClearData", () => {
